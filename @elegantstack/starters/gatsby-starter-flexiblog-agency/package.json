@@ -7,8 +7,7 @@
 		"start": "gatsby develop",
 		"build": "gatsby build",
 		"clean": "gatsby clean",
-		"serve": "gatsby serve",
-		"heroku-postbuild": "gatsby build"
+		"serve": "gatsby serve"
 	},
 	"dependencies": {
 		"@elegantstack/gatsby-theme-flexiblog-agency": "*",
