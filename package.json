@@ -6,8 +6,9 @@
   "scripts": {
     "clean": "lerna clean",
     "release": "lerna version",
-    "prettier:windows": "./node_modules/.bin/prettier --write \"{packages,starters}/**/*.{jsx,js}\""
-  },
+    "prettier:windows": "./node_modules/.bin/prettier --write \"{packages,starters}/**/*.{jsx,js}\"",
+    "heroku-postbuild": "gatsby build"
+    },
   "devDependencies": {
     "conventional-changelog-conventionalcommits": "^4.6.3",
     "lerna": "^4.0.0",
